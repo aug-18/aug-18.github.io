@@ -5,6 +5,17 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
 }
 
+.list-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-link:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .make-left{
     display: flex;
     justify-content: flex-start;
