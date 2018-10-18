@@ -8,5 +8,9 @@ node_modules/bootstrap/*
 node_modules/animate.css/*
 !node_modules/animate.css/animate.css
 
+!node_modules/angular
+node_modules/angular/*
+!node_modules/angular/angular.min.js
+
 bin
 output
