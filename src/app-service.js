@@ -4,19 +4,16 @@ appModule.service("DATA_SERVICE", [function(){
 
     const CARD_LIST = [];
     
-    // DAY - 2
-    const cardDay2 = {
-        "ID" : 2,
-        "TITLE" : "DAY 2"
+    // DAY - 7
+    const cardDay7 = {
+        "ID" : 7,
+        "TITLE" : "DAY 7",
+        "HEADING" : "Dynamic blocks",
+        "DESC" : "Posting text and Image Upload with an option to like, dislike and comment.",
     };
-    CARD_LIST.push(cardDay2);
+    CARD_LIST.push(cardDay7);
 
-    // CARD DAY 1
-    const cardDay1 = {
-        "ID" : 1,
-        "TITLE" : "DAY 1"
-    };
-    CARD_LIST.push(cardDay1);
+    
 
 
     this.CARD_LIST = CARD_LIST;
