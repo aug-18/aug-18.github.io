@@ -32,7 +32,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-8 col-lg-6">
 
-                <div ng-repeat="iobj in CARD_LIST" class="card bg-light mb-2 shadow-sm animated fadeIn">
+                <div ng-repeat="iobj in CARD_LIST" class="card bg-light mb-2 shadow-sm" ng-class="{'animated fadeIn' : $first}">
                     <h5 class="card-header">
                         {{iobj.TITLE}}
                     </h5>
@@ -46,14 +46,17 @@
                     </div>
 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            Cras justo odio
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Cras justo odioOO 
+                            <a href="#" role="button" class="badge badge-primary badge-pill">Link</a>
                         </li>
-                        <li class="list-group-item">
-                            Dapibus ac facilisis in
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Cras justo odioOO 
+                            <a href="#" role="button" class="badge badge-primary badge-pill">Link</a>
                         </li>
-                        <li class="list-group-item">
-                            Vestibulum at eros
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Cras justo odioOO 
+                            <a href="#" role="button" class="badge badge-primary badge-pill">Link</a>
                         </li>
                     </ul>
                 </div>
