@@ -8,6 +8,5 @@ node_modules/bootstrap/*
 node_modules/animate.css/*
 !node_modules/animate.css/animate.css
 
-dist
 bin
 output
