@@ -1,5 +1,13 @@
-node_modules
-.nuxt
+node_modules/*
+
+!node_modules/bootstrap
+node_modules/bootstrap/*
+!node_modules/bootstrap/dist
+
+!node_modules/animate.css
+node_modules/animate.css/*
+!node_modules/animate.css/animate.css
+
 dist
 bin
 output
