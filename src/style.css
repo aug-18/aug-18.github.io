@@ -9,3 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.textify-header{
+    font-size: x-large;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #607D8B;
+}
